@@ -29,7 +29,32 @@
     <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
     <!-- About Style -->
     <link rel="stylesheet" type="text/css" href="assets/css/about.css">
-
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/integration
+            emailjs.init('user_Si1vNgkO5T0KHv80OQII6');
+        })();
+    </script>
+    <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('contactForm').addEventListener('submit', function(event) {
+                event.preventDefault();
+                // generate a five digit number for the contact_number variable
+                this.contact_number.value = Math.random() * 100000 | 0;
+                // these IDs from the previous steps
+                emailjs.sendForm('service_a2xisqe', 'template_3dsl76e', this)
+                    .then(function() {
+                        console.log('SUCCESS!');
+                        alert("MAKASIH LOH")
+                    }, function(error) {
+                        console.log('FAILED...', error);
+                        alert("MAAP LOH")
+                    });
+            });
+        }
+    </script>
   </head>
   <body>
 
@@ -322,13 +347,14 @@
                   <div class="row">
                     <div class="col-md-6">
                       <div class="form-group">
-                        <input type="text" class="form-control" id="name" name="name" placeholder="Name" required data-error="Please enter your name">
+                        <input type="hidden" name="contact_number">
+                        <input type="text" class="form-control" id="name" name="user_name" placeholder="Name" required data-error="Please enter your name">
                         <div class="help-block with-errors"></div>
                       </div>                                 
                     </div>
                     <div class="col-md-6">
                       <div class="form-group">
-                        <input type="text" placeholder="Email" id="email" class="form-control" name="email" required data-error="Please enter your email">
+                        <input type="text" placeholder="Email" id="email" class="form-control" name="user_email" required data-error="Please enter your email">
                         <div class="help-block with-errors"></div>
                       </div> 
                     </div>
@@ -340,7 +366,7 @@
                     </div>
                     <div class="col-md-12">
                       <div class="form-group"> 
-                        <textarea class="form-control" id="message" placeholder="Your Message" rows="5" data-error="Write your message" required></textarea>
+                        <textarea class="form-control" id="message" name="message" placeholder="Your Message" rows="5" data-error="Write your message" required ></textarea>
                         <div class="help-block with-errors"></div>
                       </div>
                       <div class="submit-button">
