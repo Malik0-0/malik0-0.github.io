@@ -159,7 +159,7 @@ include('Config.php');
                 </li>
               </ul>
               <div class="header-button wow fadeInUp" data-wow-delay="1s">
-                <a href="#contact" class="btn btn-common">Contact Me</a>
+                <a href="#contact" class="btn btn-success"><i class="icon-speech"></i> Contact Me</a>
               </div>
             </div>
           </div>
@@ -177,24 +177,23 @@ include('Config.php');
           </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-          <div class="profile-wrapper wow fadeInRight" data-wow-delay="0.3s">
+          <div class="profile-wrapper wow fadeInRight" data-wow-delay="0.3s" style="font-size: larger;">
             <h3>Hi Guys!</h3>
-            <p>I am a student at Telkom University, I majored in S1 Information Systems. I am interested in things related to design, such as graphic design, UI/UX design, and website/application design. I'm a beginner programmer who has skill in python, java, php 5, css and now learning dart, flutter & firebase to expand my skills.</p>
+            <p style="font-size: large;text-align:justify">I am a student at Telkom University, I majored in S1 Information Systems. I am interested in things related to design, such as Graphic Design, UI/UX (Design, Research, Writer), and website/application design. I have programming skills such as PHP, Laravel, Flutter, Dart, and Firebase.</p>
             <div class="about-profile">
               <ul class="admin-profile">
-                <li><span class="pro-title"> Name </span> <span class="pro-detail">Malik Alrasyid Basori</span></li>
-                <li><span class="pro-title"> Age </span> <span class="pro-detail">20 Years</span></li>
-                <li><span class="pro-title"> Work Experience </span> <span class="pro-detail">0 Years</span></li>
-                <li><span class="pro-title"> Internship Experience </span> <span class="pro-detail">3 Month</span></li>
-                <li><span class="pro-title"> Freelance Experience </span> <span class="pro-detail">1 Years</span></li>
-                <li><span class="pro-title"> City </span> <span class="pro-detail">Indonesia</span></li>
-                <li><span class="pro-title"> Location </span> <span class="pro-detail">Batam, Kepulauan Riau</span></li>
-                <li><span class="pro-title"> E-mail </span> <span class="pro-detail">malikalrasyidbasori.1@gmail.com</span></li>
-                <li><span class="pro-title"> Freelance </span> <span class="pro-detail">Available for UI/UX Design & Graphic Design</span></li>
+                <li class="d-flex"><span class="pro-title"> Name </span> <span class="pro-detail">Malik Alrasyid Basori</span></li>
+                <li class="d-flex"><span class="pro-title"> Age </span> <span class="pro-detail">21 Years</span></li>
+                <li class="d-flex"><span class="pro-title"> Work Experience </span> <span class="pro-detail">-</span></li>
+                <li class="d-flex"><span class="pro-title"> Internship Experience </span> <span class="pro-detail">-</span></li>
+                <li class="d-flex"><span class="pro-title"> City </span> <span class="pro-detail">Indonesia</span></li>
+                <li class="d-flex"><span class="pro-title"> Location </span> <span class="pro-detail">Batam, Kepulauan Riau</span></li>
+                <li class="d-flex"><span class="pro-title"> E-mail </span> <span class="pro-detail">malikalrasyidbasori.1@gmail.com</span></li>
+                <li class="d-flex"><span class="pro-title"> Freelance </span> <span class="pro-detail"><ul>Available for <li>👨‍🎨Design : Visual/Graphics & UI/UX</li><li>👨‍💻Development : Website & Android/IOS (Soon)</li><li>🤵 Event : EO, MC, Podcaster & Voice Actor</li></ul></span></li>
               </ul>
             </div>
-            <a href="https://drive.google.com/file/d/1380V4LhrCW3iYdjnLMUxuOUPC8U1sb0b/view?usp=sharing" class="btn btn-common"><i class="icon-paper-clip"></i> Download Resume</a>
-            <a href="#contact" class="btn btn-danger"><i class="icon-speech"></i> Contact Me</a>
+            <a href="https://drive.google.com/file/d/1u3iuLEp7B3BaoADVmiYPPrq_HMFLU1uV/view?usp=sharing" class="btn btn-common"><i class="icon-paper-clip"></i> Download Resume</a>
+            <a href="#contact" class="btn btn-success"><i class="icon-speech"></i> Contact Me</a>
           </div>
         </div>
       </div>
@@ -202,29 +201,41 @@ include('Config.php');
   </section>
 
   <section id="services" class="services section-padding">
-    <h2 class="section-title wow flipInX" data-wow-delay="0.4s">What i do</h2>
+    <h2 class="section-title wow flipInX" data-wow-delay="0.4s">Skills</h2>
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-md-6 col-lg-3 col-xs-12">
+        <div class="col-md-6 col-lg-4 col-xs-12">
           <div class="services-item wow fadeInDown" data-wow-delay="0.6s">
             <div class="icon">
-              <i class="icon-layers"></i>
+              <i class="icon-vector"></i>
             </div>
             <div class="services-content">
               <h3><a href="#">Graphic Design</a></h3>
-              <p>Create logo, virtual background/background and CV/Resume</p>
+              <p>Adobe Illustrator, Figma, & Canva</p>
               <a href="Form index.php" class="btn btn-common mt-3">Order Service</a>
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-3 col-xs-12">
+        <div class="col-md-6 col-lg-4 col-xs-12">
           <div class="services-item wow fadeInDown" data-wow-delay="0.9s">
             <div class="icon">
-              <i class="icon-briefcase"></i>
+              <i class="icon-drawer"></i>
             </div>
             <div class="services-content">
-              <h3><a href="#">UI/UX Research</a></h3>
-              <p>Participate in various UI/UX competitions and research community problems and try to make solutions with UI/UX prototypes</p>
+              <h3><a href="#">UI/UX Design,Research, & Writer</a></h3>
+              <p>Adobe XD, Figma, & ProtoPie</p>
+              <a href="Form index.php" class="btn btn-common mt-3">Order Service</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xs-12">
+          <div class="services-item wow fadeInDown" data-wow-delay="0.9s">
+            <div class="icon">
+              <i class="icon-organization"></i>
+            </div>
+            <div class="services-content">
+              <h3><a href="#">Project Management</a></h3>
+              <p>Monday.com, Miro, Microsoft Office, & Microsoft Teams</p>
               <a href="Form index.php" class="btn btn-common mt-3">Order Service</a>
             </div>
           </div>
@@ -232,39 +243,6 @@ include('Config.php');
       </div>
     </div>
   </section>
-
-  <h1 class="display-4 d-flex w-100 justify-content-center">Design Portfolio</h1>
-  <div class="d-flex w-100 justify-content-center">
-    <div id="carouselExampleInterval" class="carousel slide align-items-center" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="10000">
-          <img src="./assets/img/ZOOM BACKGROUND 1 (lik).jpg" class="d-block" alt="..." height="800px" width="1500">
-        </div>
-        <div class="carousel-item" data-bs-interval="5000">
-          <img src="./assets/img/Zoom Background 2.png" class="d-block" alt="..." height="800px" width="1500">
-        </div>
-        <div class="carousel-item" data-bs-interval="5000">
-          <img src="./assets/img/1.jpg" class="d-block" alt="..." height="800px" width="1500">
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-  </div>
-
-  <div class="jumbotron jumbotron-fluid align-content-center justify-content-center text-center">
-    <div class="container">
-      <h1 class="display-4">MacKet</h1>
-      <p class="lead">Hacking Output in BNI Hackathon Festival</p>
-      <iframe width="800" height="500" src="https://www.youtube.com/embed/yBHz0fW8yN0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-  </div>
 
   <div id="resume" class="section-padding">
     <div class="container">
