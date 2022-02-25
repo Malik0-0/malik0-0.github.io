@@ -9,7 +9,7 @@ include('Config.php');
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <title>Web Profile Malik</title>
+  <title>Malik</title>
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
@@ -40,7 +40,7 @@ include('Config.php');
             alert("Thank You, I'll Relpy ASAP")
           }, function(error) {
             console.log('FAILED...', error);
-            alert("Sorry i think there is a little trouble")
+            alert("Sorry, I thought there was a bit of a problem")
           });
       });
     }
@@ -146,12 +146,6 @@ include('Config.php');
               <p class="script-font wow fadeInUp" data-wow-delay="0.6s">Telkom University Students</p>
               <ul class="social-icon wow fadeInUp" data-wow-delay="0.8s">
                 <li>
-                  <a class="facebook" href="https://www.facebook.com/malikalrasyid.basori"><i class="icon-social-facebook"></i></a>
-                </li>
-                <li>
-                  <a class="twitter" href="https://twitter.com/BasoriMalik?t=X3qf4H4f84IcP0d_xKXbFA&s=08"><i class="icon-social-twitter"></i></a>
-                </li>
-                <li>
                   <a class="instagram" href="https://www.instagram.com/malikalrasyidbasorii"><i class="icon-social-instagram"></i></a>
                 </li>
                 <li>
@@ -179,17 +173,16 @@ include('Config.php');
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
           <div class="profile-wrapper wow fadeInRight" data-wow-delay="0.3s" style="font-size: larger;">
             <h3>Hi Guys!</h3>
-            <p style="font-size: large;text-align:justify">I am a student at Telkom University, I majored in S1 Information Systems. I am interested in things related to design, such as Graphic Design, UI/UX (Design, Research, Writer), and website/application design. I have programming skills such as PHP, Laravel, Flutter, Dart, and Firebase.</p>
+            <p style="font-size: large;text-align:justify">I am a third-year student (Semester 6) at Telkom University Pursuing an S1/Bachelor Degree in Information Systems (Computer Science). Budding Passion in Software Engineering (Website and Android/IOS), Product Development, UI/UX (Design, Research, Writer), and Graphic Designer. You can reach me via Email or Instagram for further queries and if I don't reply more than 24 hours please kindly contact me again.</p>
             <div class="about-profile">
               <ul class="admin-profile">
                 <li class="d-flex"><span class="pro-title"> Name </span> <span class="pro-detail">Malik Alrasyid Basori</span></li>
                 <li class="d-flex"><span class="pro-title"> Age </span> <span class="pro-detail">21 Years</span></li>
                 <li class="d-flex"><span class="pro-title"> Work Experience </span> <span class="pro-detail">-</span></li>
-                <li class="d-flex"><span class="pro-title"> Internship Experience </span> <span class="pro-detail">-</span></li>
                 <li class="d-flex"><span class="pro-title"> City </span> <span class="pro-detail">Indonesia</span></li>
                 <li class="d-flex"><span class="pro-title"> Location </span> <span class="pro-detail">Batam, Kepulauan Riau</span></li>
                 <li class="d-flex"><span class="pro-title"> E-mail </span> <span class="pro-detail">malikalrasyidbasori.1@gmail.com</span></li>
-                <li class="d-flex"><span class="pro-title"> Freelance </span> <span class="pro-detail"><ul>Available for <li>👨‍🎨Design : Visual/Graphics & UI/UX</li><li>👨‍💻Development : Website & Android/IOS (Soon)</li><li>🤵 Event : EO, MC, Podcaster & Voice Actor</li></ul></span></li>
+                <li class="d-flex"><span class="pro-title"> Freelance </span> <span class="pro-detail"><ul>Available for <li>👨‍🎨Design : Visual/Graphics & UI/UX Design</li><li>👨‍💻Development : Cross Platform Development (Website & Android) with Flutter</li><li>🤵 Event : EO, MC, Podcaster & Voice Actor</li></ul></span></li>
               </ul>
             </div>
             <a href="https://drive.google.com/file/d/1u3iuLEp7B3BaoADVmiYPPrq_HMFLU1uV/view?usp=sharing" class="btn btn-common"><i class="icon-paper-clip"></i> Download Resume</a>
@@ -235,7 +228,7 @@ include('Config.php');
             </div>
             <div class="services-content">
               <h3><a href="#">Project Management</a></h3>
-              <p>Monday.com, Miro, Microsoft Office, & Microsoft Teams</p>
+              <p>ClikUp, Miro, Microsoft Office, & Microsoft Teams</p>
               <a href="Form index.php" class="btn btn-common mt-3">Order Service</a>
             </div>
           </div>
@@ -258,7 +251,7 @@ include('Config.php');
                 <div class="content-text">
                   <h3 class="line-title">S1 Information Systems - Telkom University</h3>
                   <span>2019 - now</span>
-                  <p class="line-text text-justify">3rd year student at Telkom University. Currently developing skills in Website Design, Virtual Operating Systems, Project Management, Enterprise Architecture, SAP SCM Modules, and Data Warehouse & Business Intelligence at Telkom University. and also developing darts, flutter & firebase skills at <a class="udemy" href="https://www.udemy.com/" class="line-text"> Udemy.com</a></p>
+                  <p class="line-text text-justify">Third Year (Semester 6) Telkom University Student Pursuing an S1/Bachelor Degree in Information Systems (Computer Science). Currently developing skills in Entrepreneurship, Information System Security, Enterprise Application Integrity, Software Engineering: Capstone Project, and Information Technology Service Management at Telkom University. and also developing darts, flutter & firebase skills at <a class="udemy" href="https://www.udemy.com/" class="line-text"> Udemy.com</a></p>
                 </div>
               </li>
               <li>
@@ -281,86 +274,68 @@ include('Config.php');
               <li>
                 <div class="content-text">
                   <h3 class="line-title">Human Resources Staff at SEARCH Telkom University</h3>
-                  <span>January 2021 - Present</span>
+                  <span>January 2021 - January 2022</span>
                   <p class="line-text text-justify">Become one of the HR staff at SEARCH Telkom University. During my time as HR staff, I gained a lot of experience, from how to organize events from start to finish, how to lead a team, how to make relationships within the organization closer, how to manage stress & burnout, how to manage time, and how to make public speaking better.</p>
                   <dl>
                     <dt>More info about SEARCH Telkom University :</dt>
                     <dd><a class="more-info head-title" href="https://www.instagram.com/searchtelkomunv/" style="color:white;">Instagram</a></dd>
                   </dl>
-                  <div class="progress">
-                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
-                      75% Complete
-                    </div>
-                  </div>
                 </div>
               </li>
               <li>
                 <div class="content-text">
-                  <h3 class="line-title">PIC of UI/UX Competition,Competition Organizer Division of JBC 2021</h3>
+                  <h3 class="line-title">Chairman, Open Mind SEARCH 2021</h3>
+                  <span>October 2021 - November 2021</span>
+                  <p class="line-text text-justify">Chairman On the Committee for the Open Mind SEARCH 2021. I had the opportunity to be the chairman of this event who organizes and managed a 43-member cross-functional (Core Division, Events Division, Publication and Documentation Division, and Public Relations Division) team. I work on helps other divisions, preparing and compiling the entire series. Open Mind SEARCH 2021 is an event to introduce this organization to new students, to attract new students to join this organization.</p>
+                  <dl>
+                    <dt>More info about Java Business Competition 2021 :</dt>
+                    <dd><a class="more-info head-title" href="https://www.instagram.com/p/CVc7JS2Jw1K/?utm_source=ig_web_copy_link" style="color:white;">Instagram</a></dd>
+                  </dl>
+                </div>
+              </li>
+              <li>
+                <div class="content-text">
+                  <h3 class="line-title">PIC of UI/UX Competition, Competition Organizer Division of JBC 2021</h3>
                   <span>June 2021 - September 2021</span>
-                  <p class="line-text text-justify">Person in Charge of the UI/UX Competition, On the Committee for the Java Business Competition 2021. Here I had the opportunity to be the leader of the UI/UX team to lead this team in preparing and compiling the entire series of UI/UX competition events. In the UI/UX series, there are several events such as live Instagram with judges discussing Tips for Brainstorming Ideas & Research and the main event of the national level UI/UX competition. The main event for the Java Business Competition 2021 itself is the International Webminar.</p>
+                  <p class="line-text text-justify">Person in Charge of the UI/UX Competition, On the Committee for the Java Business Competition 2021. I had the opportunity to be the Person in Charge of the UI/UX Competition to manage an 18-member cross-functional (UI/UX Division and Liaison Officer Division) team. I work on preparing and compiling the entire series of UI/UX competition events. In the UI/UX series, there are several events such as live Instagram with judges discussing "Tips for Brainstorming Ideas & Research" and the main event of the national level UI/UX competition. The main event of the Java Business Competition 2021 itself is an International Webinar.</p>
                   <dl>
                     <dt>More info about Java Business Competition 2021 :</dt>
                     <dd><a class="more-info head-title" href="https://www.instagram.com/jbc_telkomuniv/" style="color:white;">Instagram</a></dd>
                     <dd><a class="more-info head-title" href="https://javabusinesscompetition.id/" style="color:white;">Website</a></dd>
                   </dl>
-                  <div class="progress">
-                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
-                      100% Complete
-                    </div>
-                  </div>
                 </div>
               </li>
               <li>
                 <div class="content-text">
-                  <h3 class="line-title">Championship Regeneration 2021 - UI/UX Competition</h3>
-                  <span>January 2021 - February 2021</span>
-                  <p class="line-text text-justify">Participated in the UI/UX 2021 Regeneration Championship Competition with team V. In the UI/UX Championship Regeneration competition, I took the role of UX Research which looked for data on problems that existed in the community and finally raised the problem of difficulties in time management. From this problem, after brainstorming various solution ideas, Team V finally agreed to create an application that can make it easier for students to manage time and assignments. The application is "Daily Manager", this application can manage meeting schedules and tasks, classify schedule lists and task lists by category, can change application themes, and view daily, weekly and monthly meeting schedules and tasks.</p>
+                  <h3 class="line-title">Head of Events Division, SEARCH Inspiration 2021</h3>
+                  <span>July 2021 - August 2021</span>
+                  <p class="line-text text-justify">Head of Events Division On the Committee for the SEARCH Inspiration 2021. I had the opportunity to become a Head of Events Division that organize and manage a 4-member team. I work on the timeline and event rundown, determine who will be the speakers, and prepare other necessities for the webinars. SEARCH Inspiration is a national webinar with the theme "Maximize scholarship preparation". In this webinar, we invite a speaker who has received a scholarship abroad, namely Alysa Bachtiar.</p>
                   <dl>
-                    <dt>Team V consists of:</dt>
-                    <dd>- Farhan Hilmi as team leader (Role as UI Designer)<a class="website-farhan" href="https://farhanhilmi.tech/"> More Info</a></dd>
-                    <dd>- M. Safik Assegaf as member 1 (Role as Technical Writer)<a class="instagram-safik" href="https://www.instagram.com/safik_assegaf/"> More Info</a></dd>
-                    <dd>- Malik Alrasyid Basori as member 2 (Role as UX Research)<a class="instagram-malik" href="https://www.instagram.com/malikalrasyidbasorii/"> More Info</a></dd>
-                    <dt>More info about Championship Regeneration 2021 :</dt>
-                    <dd><a class="more-info head-title" href="https://www.instagram.com/crsearch2021/" style="color:white;">Instagram</a></dd>
+                    <dt>More info about SEARCH Inspiration :</dt>
+                    <dd><a class="more-info head-title" href="https://www.instagram.com/p/CSCA310psnR/?utm_source=ig_web_copy_link" style="color:white;">Instagram</a></dd>
                   </dl>
-                  <div class="progress">
-                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
-                      100% Complete
-                    </div>
-                  </div>
                 </div>
               </li>
               <li>
                 <div class="content-text">
-                  <h3 class="line-title">Head of Public Relations Division of Championship Regeneration 2020</h3>
+                  <h3 class="line-title">Head of Public Relations Division, Championship Regeneration 2020</h3>
                   <span>January 2020 - February 2020</span>
-                  <p class="line-text text-justify">My first committee in college, and my first time being a division head in a committee. In this committee I learned many things, especially in leadership, I started to know that I have many shortcomings in leading a team, and from this experience, I can become better at leading a team.</p>
+                  <p class="line-text text-justify">My first committee in college, and my first time being a division head in a committee. I had the opportunity to become a Head of Public Relation Division that organize and manage a 4-member team. I work on contacting other internal organizations to establish media cooperation, which in the future have an agreement to help each other in disseminating information on each of our social media. Championship Regeneration 2020 is an internal Telkom University competition.</p>
                   <dl>
                     <dt>More info about Championship Regeneration 2020 :</dt>
-                    <dd><a class="more-info head-title" href="https://www.instagram.com/crsearch2021/" style="color:white;">Instagram</a></dd>
+                    <dd><a class="more-info head-title" href="https://www.instagram.com/crsearch2022/" style="color:white;">Instagram</a></dd>
                   </dl>
-                  <div class="progress">
-                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
-                      100% Complete
-                    </div>
-                  </div>
                 </div>
               </li>
               <li>
                 <div class="content-text">
                   <h3 class="line-title">Internship at PT Infineon Batam</h3>
                   <span>July 2017 - September 2017</span>
-                  <p class="line-text text-justify">Internship at PT Infineon in the IT Support Department, where I learned how to maintain devices, ranging from laptops, computers, printers, and photocopiers. besides that, I also learned how to install windows through a server, how it is a server and how a server works, and also learned to manage the data in the company.</p>
+                  <p class="line-text text-justify">Internship at PT Infineon in the IT Support Department, where I learned how to maintain devices, ranging from laptops, computers, printers, and photocopiers. besides that, I also learned how to install windows through a server, how it is a server and how a server works, and also learned to manage the data in the company. This internship is one of the mandatory agendas for graduation requirements at SMKN 1 Batam.</p>
                   <dl>
                     <dt>More info about PT Infineon Batam :</dt>
                     <dd><a class="more-info head-title" href="https://www.infineon.com/cms/en/careers/our-locations/batam/" style="color:white;">Website</a></dd>
                   </dl>
-                  <div class="progress">
-                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
-                      100% Complete
-                    </div>
-                  </div>
                 </div>
               </li>
             </ul>

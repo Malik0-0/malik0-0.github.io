@@ -33,7 +33,7 @@ if (isset($_POST['regis'])) {
                             <input type="password" name="password" class="form-control" placeholder="Password">
                         </div>
                         <div class="col-12">
-                            <button type="submit" class="btn btn-dark float-end" name="regis">Regis</button>
+                            <button type="submit" class="btn btn-dark float-end" name="regis">Register</button>
                         </div>
                     </form>
                     </div>
