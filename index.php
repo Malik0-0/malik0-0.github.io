@@ -10,17 +10,11 @@ include('Config.php');
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <title>Malik</title>
-
-  <!-- Bootstrap CSS -->
   <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <!-- Fonts -->
   <link rel="stylesheet" type="text/css" href="assets/fonts/font-awesome.min.css">
-  <!-- Icon -->
   <link rel="stylesheet" type="text/css" href="assets/fonts/simple-line-icons.css">
-  <!-- Main Style -->
   <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-  <!-- About Style -->
   <link rel="stylesheet" type="text/css" href="assets/css/about.css">
 
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
@@ -195,6 +189,7 @@ include('Config.php');
 
   <section id="services" class="services section-padding">
     <h2 class="section-title wow flipInX" data-wow-delay="0.4s">Skills</h2>
+    <h6 class="text-center wow flipInX mb-5" data-wow-delay="0.6s">Please Login first if you want to order the service</h6>
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-6 col-lg-4 col-xs-12">
