@@ -57,7 +57,7 @@ include('Config.php');
         </div>
         <div class="collapse navbar-collapse" id="main-navbar">
           <ul class="onepage-nev navbar-nav mr-auto w-100 justify-content-end clearfix">
-            <?php if (!isset($_SESSION['username'])) : ?>
+            <!-- <?php if (!isset($_SESSION['username'])) : ?> -->
               <li class="nav-item active">
                 <a class="nav-link" href="#hero-area">
                   Home
@@ -83,7 +83,7 @@ include('Config.php');
                   Contact
                 </a>
               </li>
-              <li class="nav-item">
+              <!-- <li class="nav-item">
                 <a class="nav-link" href="./Login.php">
                   Login
                 </a>
@@ -123,7 +123,7 @@ include('Config.php');
                   <li><a class="dropdown-item" href="Logout.php?logout=true">Logout</a></li>
                 </ul>
               </li>
-            <?php endif; ?>
+            <?php endif; ?> -->
           </ul>
         </div>
       </div>
@@ -176,7 +176,7 @@ include('Config.php');
                 <li class="d-flex"><span class="pro-title"> City </span> <span class="pro-detail">Indonesia</span></li>
                 <li class="d-flex"><span class="pro-title"> Location </span> <span class="pro-detail">Batam, Kepulauan Riau</span></li>
                 <li class="d-flex"><span class="pro-title"> E-mail </span> <span class="pro-detail">malikalrasyidbasori.1@gmail.com</span></li>
-                <li class="d-flex"><span class="pro-title"> Freelance </span> <span class="pro-detail"><ul>Available for <li>👨‍🎨Design : Visual/Graphics & UI/UX Design</li><li>👨‍💻Development : Cross Platform Development (Website & Android) with Flutter</li><li>🤵 Event : EO, MC, Podcaster & Voice Actor</li></ul></span></li>
+                <li class="d-flex"><span class="pro-title"> Freelance </span> <span class="pro-detail"><ul>Available for <li>👨‍🎨Design : Visual/Graphics & UI/UX Design</li><li>👨‍💻Development : Cross Platform with Flutter (Mobile/Desktop) and Website with Laravel Framework</li><li>🤵 Event : EO, MC, Podcaster & Voice Actor</li></ul></span></li>
               </ul>
             </div>
             <a href="https://drive.google.com/file/d/1u3iuLEp7B3BaoADVmiYPPrq_HMFLU1uV/view?usp=sharing" class="btn btn-common"><i class="icon-paper-clip"></i> Download Resume</a>
@@ -188,8 +188,8 @@ include('Config.php');
   </section>
 
   <section id="services" class="services section-padding">
-    <h2 class="section-title wow flipInX" data-wow-delay="0.4s">Skills</h2>
-    <h6 class="text-center wow flipInX mb-5" data-wow-delay="0.6s">Please Login first if you want to order the service</h6>
+    <h2 class="section-title wow flipInX mt-4" data-wow-delay="0.4s">Skills</h2>
+    <!-- <h6 class="text-center wow flipInX mb-5" data-wow-delay="0.6s">Please Login first if you want to order the service</h6> -->
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-6 col-lg-4 col-xs-12">
@@ -200,7 +200,7 @@ include('Config.php');
             <div class="services-content">
               <h3><a href="#">Graphic Design</a></h3>
               <p>Adobe Illustrator, Figma, & Canva</p>
-              <a href="Form index.php" class="btn btn-common mt-3">Order Service</a>
+              <!-- <a href="Form index.php" class="btn btn-common mt-3">Order Service</a> -->
             </div>
           </div>
         </div>
@@ -212,7 +212,7 @@ include('Config.php');
             <div class="services-content">
               <h3><a href="#">UI/UX Design,Research, & Writer</a></h3>
               <p>Adobe XD, Figma, & ProtoPie</p>
-              <a href="Form index.php" class="btn btn-common mt-3">Order Service</a>
+              <!-- <a href="Form index.php" class="btn btn-common mt-3">Order Service</a> -->
             </div>
           </div>
         </div>
@@ -224,7 +224,7 @@ include('Config.php');
             <div class="services-content">
               <h3><a href="#">Project Management</a></h3>
               <p>ClikUp, Miro, Microsoft Office, & Microsoft Teams</p>
-              <a href="Form index.php" class="btn btn-common mt-3">Order Service</a>
+              <!-- <a href="Form index.php" class="btn btn-common mt-3">Order Service</a> -->
             </div>
           </div>
         </div>
@@ -344,7 +344,7 @@ include('Config.php');
     <div class="contact-form">
       <div class="container">
         <div class="row contact-form-area wow fadeInUp" data-wow-delay="0.4s">
-          <div class="col-md-6 col-lg-6 col-sm-12">
+          <!-- <div class="col-md-6 col-lg-6 col-sm-12">
             <div class="contact-block">
               <h2>Contact Form</h2>
               <form id="contactForm">
@@ -382,8 +382,8 @@ include('Config.php');
                 </div>
               </form>
             </div>
-          </div>
-          <div class="col-md-6 col-lg-6 col-sm-12">
+          </div> -->
+          <div>
             <div class="footer-right-area wow fadeIn">
               <h2>Contact Address</h2>
               <div class="footer-right-contact">
@@ -408,8 +408,8 @@ include('Config.php');
               </div>
             </div>
           </div>
-          <div class="col-md-12">
-            <object style="border:0; height: 450px; width: 100%;" data="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.0789216107314!2d104.05283741470106!3d1.1030802991954007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d988d67596cf4f%3A0xc23cf940ac578d43!2sJl.%20Legenda%20Malaka%2C%20Baloi%20Permai%2C%20Kec.%20Batam%20Kota%2C%20Kota%20Batam%2C%20Kepulauan%20Riau%2029444!5e0!3m2!1sen!2sid!4v1633760140922!5m2!1sen!2sid"></object>
+          <div class="col-md-12 pt-3">
+            <object style="border:0; height: 450px; width: 100%;" data="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d457.25015934362375!2d104.05358586562187!3d1.1033247968696518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d989315ef4ba33%3A0xb607ece5c5a863f4!2sToko%20Gemilang%20Stationery!5e0!3m2!1sen!2sid!4v1646115796027!5m2!1sen!2sid"></object>
           </div>
         </div>
       </div>
@@ -422,12 +422,6 @@ include('Config.php');
         <div class="col-md-12">
           <div class="footer-text text-center wow fadeInDown" data-wow-delay="0.3s">
             <ul class="social-icon">
-              <li>
-                <a class="facebook" href="https://www.facebook.com/malikalrasyid.basori"><i class="icon-social-facebook"></i></a>
-              </li>
-              <li>
-                <a class="twitter" href="https://twitter.com/BasoriMalik?t=X3qf4H4f84IcP0d_xKXbFA&s=08"><i class="icon-social-twitter"></i></a>
-              </li>
               <li>
                 <a class="instagram" href="https://www.instagram.com/malikalrasyidbasorii"><i class="icon-social-instagram"></i></a>
               </li>
